@@ -274,4 +274,11 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "pshade not the best",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/randomstring0/pshade-ultimate/refs/heads/main/src/cd.lua'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
 Rayfield:LoadConfiguration()
