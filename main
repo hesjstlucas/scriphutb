@@ -275,9 +275,19 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "pshade not the best",
+   Name = "pshade shaders",
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/randomstring0/pshade-ultimate/refs/heads/main/src/cd.lua'))()
+   -- The function that takes place when the button is pressed
+   end,
+})
+
+local Tab = Window:CreateTab("blade ball", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
+   Name = "all blade ball scripts",
+   Callback = function()
+   loadstring(game:HttpGet(
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptjame/test2/refs/heads/main/bladeball.lua"))()))()
    -- The function that takes place when the button is pressed
    end,
 })
